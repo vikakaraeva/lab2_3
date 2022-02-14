@@ -6,7 +6,10 @@ namespace lab2_3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("myHello");
+            string name;
+            name = Console.ReadLine();
+            Console.WriteLine($"Привет", {name});
         }
     }
 }
